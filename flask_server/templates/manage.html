@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='login/vendor/bootstrap/css/bootstrap.min.css') }}">
+</head>
+
+<body>
+    <div class="list-group">
+        <p class="list-group-item list-group-item-action active">유저 목록</p>
+        <button type="button" onClick="location.href='/logout'" class="btn btn-secondary">로그 아웃</button> {% for row in rows %}
+        <a href="/userinfo?email={{ row.useremail }}&name={{ row.username }}" class="list-group-item list-group-item-action">이메일 : {{ row.useremail }}<br>이름 : {{row.username}}</a> {% endfor %}
+    </div>
+    <a href="#" class="list-group-item list-group-item-action disabled"></a>
+</body>
+
+</html>
