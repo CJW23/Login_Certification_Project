@@ -23,13 +23,14 @@ DROP TABLE IF EXISTS `user`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `useremail` varchar(30) NOT NULL,
   `pw` varchar(70) NOT NULL,
   `username` varchar(20) NOT NULL,
   `manager` int(11) NOT NULL DEFAULT '0',
   `salt` varchar(3) NOT NULL,
-  PRIMARY KEY (`useremail`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +39,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES ('cjw7242@gmail.com','u_L8GxcuAun5EXcz_lKVoPM6UbH7wuD9M-saxa_IZJD5_ulXS1sfEevUepwkf','awd',0,'lqm'),('cjw7242@naver.com','x2m0BBaLAg0FCe-HGr7xpQLcb5XgNAaza0UMmkrqFoadHFGYGeAN7NEoV_KER','조채현',0,'TAJ');
+INSERT INTO `user` VALUES (2,'cjw7242@naver.com','x2m0BBaLAg0FCe-HGr7xpQLcb5XgNAaza0UMmkrqFoadHFGYGeAN7NEoV_KER','조채현',1,'TAJ'),(3,'cjw7242@gmail.com','YUdkarfxOJIIsIel99_stKh1VZojItI9kntUnioSguo1B5GIUIdB9oMdIdKAR','최재우',0,'Cqw'),(4,'bluetwintail@naver.com','wwYKadAAm43GC8STYyb8_GLmBiF7Ltul0bT2x64LozdkT-fVavYvTLN-ljwkl','hi',0,'JiN'),(5,'adnyss@naver.com','pGvePNolwLN-v_mnMcEE8mdjHexwfroPX9q7i-06Dc1xazeIdSvVlmWHZEFmo','백성진',0,'I2s');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-01-27 14:25:39
+-- Dump completed on 2020-02-11 13:32:18
