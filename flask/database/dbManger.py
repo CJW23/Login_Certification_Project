@@ -66,6 +66,14 @@ class DatabaseManger:
             return True
         return False
 
+    #유저 db id return
+    def user_id(self, email):
+        sql = "SELECT id " \
+              "FROM user " \
+              "WHERE useremail='%s'" % email
+        row = self.db.executeOne(sql)
+        return row['id']
+
     #유저 데이터 가져오기
     def user_data(self):
         sql = "SELECT useremail, username " \

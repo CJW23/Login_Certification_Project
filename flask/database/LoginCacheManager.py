@@ -35,3 +35,8 @@ class RedisLoginManager:
     #로그아웃 레디스 데이터 지우기
     def delete_session_token(self, email):
         self.r.delete(email)
+
+    def token_exists(self, email):
+        if self.r.exists(email) > 0:
+            return True
+        return False

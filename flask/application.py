@@ -23,14 +23,14 @@ crypt = AESCipher()
 dbMng = DatabaseManger()
 
 
-#test페이지
+# test페이지
 @app.route("/test")
 def test():
     return jsonify({
         "nicName": "success",
         "token": "success2"
     })
-#페이지 캐시 관
+# 페이지 캐시 관
 @app.after_request
 def add_header(resp):
     resp.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
@@ -145,15 +145,27 @@ def client_login():
         print(request.form.get('email'))
         if dbMng.login_check(request.form.get('email'), request.form.get('password')):
             email = request.form.get('email')
+            if redis_login_up_mng.token_exists(email):      #이미 접속한 아이디라면
+                print("overlap")
+                return jsonify({
+                    "email": "",
+                    "token": "",
+                    "id": "",
+                    "login": "overlap"
+                })
+            print("여길 왜 들어와")
             token = redis_login_up_mng.insert_uuid_cookie(email)  # redis에 토큰 저장
+            id = dbMng.user_id(email)
             return jsonify({
                 "email": email,
                 "token": token,
+                "id": id,
                 "login": "true"
             })
         return jsonify({
             "email": "",
             "token": "",
+            "id": "",
             "login": "false"
         })
 
@@ -162,6 +174,17 @@ def client_login():
 def client_cache_check():
     if request.method == 'POST':
         return redis_login_up_mng.get_user_uuid(request.form.get('email'))
+
+
+@app.route("/delet", methods=['POST', 'GET'])
+def client_cache_delete():
+    print("delete : " + request.form.get('email'))
+    if request.method == 'POST':
+        redis_login_up_mng.delete_session_token(request.form.get('email'))
+        return jsonify({
+            "success" : "true"
+        })
+
 #메인 페이지
 @app.route("/main")
 def main():
@@ -217,7 +240,7 @@ def check_manager():
             "manager": "false"
         })
 
-#로그아웃
+#로그아웃kj98
 @app.route("/logout")
 def logout():
     res = make_response(redirect("/"))
@@ -307,4 +330,4 @@ def email_send(uuid, user_email, flag):
 
 
 if __name__ == "__main__":
-    app.run(host="localhost", port="8082", debug=True)
+    app.run(host="0.0.0.0", port="8082", debug=True)
