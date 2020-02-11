@@ -3,8 +3,8 @@ import pymysql
 
 class Database:
     def __init__(self):
-        self.db = pymysql.connect(host='127.0.0.1',
-                                  user='root',
+        self.db = pymysql.connect(host='localhost',
+                                  user='secle',
                                   password='awdsd123',
                                   db='smilegate',
                                   charset='utf8')
