@@ -311,7 +311,7 @@ def revise_password():
 def email_send(uuid, user_email, flag):
     if flag == 0:
         with app.app_context():
-            url = "http://localhost:8082/certification?email=%s&uuid=%s" % (user_email, uuid)
+            url = "http://13.125.252.198:8082/certification?email=%s&uuid=%s" % (user_email, uuid)
             msg = Message(
                 subject="회원가입 인증",
                 sender=app.config.get("MAIL_USERNAME"),
@@ -320,7 +320,7 @@ def email_send(uuid, user_email, flag):
             mail.send(msg)
     else:
         with app.app_context():
-            url = "http://localhost:8082/samplepassword?email=%s&uuid=%s" % (user_email, uuid)
+            url = "http://13.125.252.198:8082/samplepassword?email=%s&uuid=%s" % (user_email, uuid)
             msg = Message(
                 subject="임시 비밀번호",
                 sender=app.config.get("MAIL_USERNAME"),
