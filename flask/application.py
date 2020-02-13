@@ -160,7 +160,7 @@ def client_login():
                 "email": email,
                 "token": token,
                 "id": info['id'],
-                "name": info['username'],
+                "username": info['username'],
                 "login": "true"
             })
         return jsonify({
