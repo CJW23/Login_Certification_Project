@@ -4,9 +4,9 @@ import pymysql
 class Database:
     def __init__(self):
         self.db = pymysql.connect(host='localhost',
-                                  user='sercle',
+                                  user='root',
                                   password='awdsd123',
-                                  db='smilegate',
+                                  db='smilegate2',
                                   charset='utf8')
         self.cursor = self.db.cursor(pymysql.cursors.DictCursor)
 

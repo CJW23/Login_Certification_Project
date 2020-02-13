@@ -155,11 +155,12 @@ def client_login():
                 })
             print("여길 왜 들어와")
             token = redis_login_up_mng.insert_uuid_cookie(email)  # redis에 토큰 저장
-            id = dbMng.user_id(email)
+            info = dbMng.user_info(email)
             return jsonify({
                 "email": email,
                 "token": token,
-                "id": id,
+                "id": info['id'],
+                "name": info['username'],
                 "login": "true"
             })
         return jsonify({
