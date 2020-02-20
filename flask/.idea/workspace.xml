@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc285008-7f73-40d1-aa87-8a022b559c91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/db_game_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/LoginCacheManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/login_cache_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/SearchPasswordCacheManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/search_password_cache_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/SignUpCacheManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/signup_cache_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/dbManger.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/db_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/dbModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/db_module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security/encryptionModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/security/encryption_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/db_module.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#102#0" expanded="true" />
               </folding>
@@ -41,11 +34,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/db_module.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="225">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/search_password_cache_manager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/revisepassword.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="27" column="87" selection-start-line="27" selection-start-column="87" selection-end-line="27" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -62,14 +76,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>insert_uu</find>
-      <find>POST</find>
       <find>json</find>
       <find>tokencheck</find>
       <find>click_url_certification</find>
       <find>header</find>
       <find>jsoni</find>
-      <find>revise_password</find>
       <find>sample_password</find>
       <find>get_</find>
       <find>token_check</find>
@@ -92,6 +103,9 @@
       <find>user_data</find>
       <find>}</find>
       <find>error</find>
+      <find>dbMng</find>
+      <find>revise_password</find>
+      <find>sample</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,9 +140,9 @@
         <option value="$PROJECT_DIR$/database/dbManger.py" />
         <option value="$PROJECT_DIR$/database/dbModule.py" />
         <option value="$PROJECT_DIR$/database/db_manager.py" />
-        <option value="$PROJECT_DIR$/database/db_module.py" />
         <option value="$PROJECT_DIR$/database/db_game_manager.py" />
         <option value="$PROJECT_DIR$/application.py" />
+        <option value="$PROJECT_DIR$/database/db_module.py" />
       </list>
     </option>
   </component>
@@ -159,6 +173,11 @@
               <item name="flask" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask" type="462c0819:PsiDirectoryNode" />
               <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,12 +345,12 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18240343" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18240343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3133758" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3133758" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987261" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -501,9 +520,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../python/venv/lib/python3.6/site-packages/flask/app.py" />
-    <entry file="file://$PROJECT_DIR$/templates/revisepassword.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/samplepassword.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -534,16 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="593">
           <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/search_password_cache_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/db_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/db_game_manager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -616,13 +615,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/search_password_cache_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/revisepassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="27" column="87" selection-start-line="27" selection-start-column="87" selection-end-line="27" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#102#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/db_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
         </state>
       </provider>
     </entry>
