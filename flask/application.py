@@ -1,10 +1,11 @@
 from flask import Flask, render_template, redirect, request, jsonify, make_response, Response, session
 from flask_mail import Mail, Message
-from database.dbManger import DatabaseManger
-from security.encryptionModule import AESCipher
-from database.SignUpCacheManager import RedisSignUpManager
-from database.LoginCacheManager import RedisLoginManager
-from database.SearchPasswordCacheManager import RedisSearchPasswordManager
+from database.db_manager import DatabaseManger
+from database.db_game_manager import GameDataBaseManager
+from security.encryption_module import AESCipher
+from database.signup_cache_manager import RedisSignUpManager
+from database.login_cache_manager import RedisLoginManager
+from database.search_password_cache_manager import RedisSearchPasswordManager
 
 app = Flask(__name__)
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
@@ -30,7 +31,8 @@ def test():
         "nicName": "success",
         "token": "success2"
     })
-# 페이지 캐시 관
+
+# 페이지 캐시 관리
 @app.after_request
 def add_header(resp):
     resp.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
@@ -312,7 +314,7 @@ def revise_password():
 def email_send(uuid, user_email, flag):
     if flag == 0:
         with app.app_context():
-            url = "http://13.125.252.198:8082/certification?email=%s&uuid=%s" % (user_email, uuid)
+            url = "http://10.99.13.48:8082/certification?email=%s&uuid=%s" % (user_email, uuid)
             msg = Message(
                 subject="회원가입 인증",
                 sender=app.config.get("MAIL_USERNAME"),
@@ -321,13 +323,75 @@ def email_send(uuid, user_email, flag):
             mail.send(msg)
     else:
         with app.app_context():
-            url = "http://13.125.252.198:8082/samplepassword?email=%s&uuid=%s" % (user_email, uuid)
+            url = "http://10.99.13.48:8082/samplepassword?email=%s&uuid=%s" % (user_email, uuid)
             msg = Message(
                 subject="임시 비밀번호",
                 sender=app.config.get("MAIL_USERNAME"),
                 recipients=[user_email],  # use your email for testing
                 body=url)
             mail.send(msg)
+
+
+#########게임 API#############
+
+db_game_mng = GameDataBaseManager()
+
+# 로비에 표현될 데이터
+@app.route("/get-data", methods=['POST', 'GET'])
+def get_user():
+    if request.method == 'POST':
+        data = db_game_mng.get_user_data(request.form.get('id'))
+        print(data)
+        return jsonify({
+            "achievescore": data['achievescore'],
+            "victory": data['victory'],
+            "lose": data['lose'],
+            "kill": data['kill'],
+            "death": data['death'],
+            "damage": data['damage']
+        })
+
+# 모든 업적 리스트
+@app.route("/get-achieve-data", methods=['POST', 'GET'])
+def get_achieve_data():
+    data = db_game_mng.get_achievement()
+    return jsonify(data)
+
+# 유저가 달성한 업적 리스트
+@app.route("/get-user-achieve-data", methods=['POST', 'GET'])
+def get_user_achieve_data():
+    if request.method == 'POST':
+        data = db_game_mng.get_user_achievement(request.form.get('id'))
+        return jsonify(data)
+
+# 게임이 끝나고 달성 업적 업데이트후 업적 점수 업데이트
+@app.route("/update-user-achieve", methods=['POST', 'GET'])
+def update_user_achieve():
+    game_data = []
+    if request.method == 'POST':
+        game_data.append(request.form.get('kill'))
+        game_data.append(request.form.get('death'))
+        game_data.append(request.form.get('damage'))
+        db_game_mng.update_achieve(request.form.get('id'), game_data)
+        db_game_mng.update_achieve_score(request.form.get('id'))
+        return "true"
+    return "false"
+
+# 게임 이긴후 승리 데이터 증가
+@app.route("/update-user-victory", methods=['POST', 'GET'])
+def update_victory():
+    if request.method == 'POST':
+        db_game_mng.victory_update(request.form.get('id'))
+        return "true"
+    return "false"
+
+# 게임 패배후 패배 데이터 증가
+@app.route("/update-user-lose", methods=['POST', 'GET'])
+def update_lose():
+    if request.method == 'POST':
+        db_game_mng.lose_update(request.form.get('id'))
+        return "true"
+    return "false"
 
 
 if __name__ == "__main__":

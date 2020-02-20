@@ -1,5 +1,5 @@
-from database.dbModule import Database
-from security.encryptionModule import AESCipher
+from database.db_module import Database
+from security.encryption_module import AESCipher
 encrypt = AESCipher()
 
 

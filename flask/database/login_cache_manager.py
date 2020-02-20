@@ -1,5 +1,5 @@
 import redis, uuid, datetime
-from database.dbManger import DatabaseManger
+from database.db_manager import DatabaseManger
 
 
 class RedisLoginManager:
