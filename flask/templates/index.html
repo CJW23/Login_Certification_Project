@@ -22,7 +22,7 @@
     <div class="limiter">
         <div class="container-login100">
             <div class="wrap-login100 p-t-50 p-b-90">
-                <form action="{{url_for('try_login')}}" method="POST" class="login100-form validate-form flex-sb flex-w">
+                <form action="{{url_for('game_login.try_login')}}" method="POST" class="login100-form validate-form flex-sb flex-w">
                     <span class="login100-form-title p-b-51"> Sercle</span>
 
                     <div class="wrap-input100 validate-input m-b-16" data-validate="Username is required">
@@ -37,8 +37,8 @@
 
                     <div class="flex-sb-m w-full p-t-3 p-b-24">
                         <div>
-                            <a href="{{ url_for('input_email')}}" class="txt1 search">Forgot?</a>&emsp;
-                            <a href="{{ url_for('signup')}}" class="txt1">Sign Up</a>
+                            <a href="{{ url_for('password.input_email')}}" class="txt1 search">Forgot?</a>&emsp;
+                            <a href="{{ url_for('sign_up.signup')}}" class="txt1">Sign Up</a>
                         </div>
                     </div>
 

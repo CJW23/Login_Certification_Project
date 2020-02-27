@@ -21,7 +21,7 @@
             <!-- <img src="images/signup-bg.jpg" alt=""> -->
             <div class="container">
                 <div class="signup-content">
-                    <form action="{{ url_for('click_sign_up')}}" method="POST" id="signup-form" class="signup-form">
+                    <form action="{{ url_for('sign_up.click_sign_up')}}" method="POST" id="signup-form" class="signup-form">
                         <h2 class="form-title">Create account</h2>
                         <div class="form-group">
                             <input type="text" class="form-input" name="email" id="email" placeholder="Your Email" />
@@ -46,7 +46,7 @@
                         </div>
                     </form>
                     <p class="loginhere">
-                        Have already an account ? <a href="{{ url_for('login')}}" class="loginhere-link">Login here</a>
+                        Have already an account ? <a href="{{ url_for('game_login.login')}}" class="loginhere-link">Login here</a>
                     </p>
                 </div>
             </div>

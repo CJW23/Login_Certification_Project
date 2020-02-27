@@ -39,7 +39,7 @@ class GameDataBaseManager:
 
     # 유저가 달성한 업적 리스트
     def get_user_achievement(self, id):
-        sql = "SELECT achievementlist.id, achievementlist.listid, achievementlist.achieve " \
+        sql = "SELECT achievementlist.id as id, achievementlist.listid as listid, achievementlist.achieve as achieve " \
               "FROM user, achievement, achievementlist " \
               "WHERE achievement.val >= achievementlist.tskval AND " \
               "user.id = achievement.userid AND " \
@@ -88,9 +88,11 @@ class GameDataBaseManager:
     # 게임 종료시 데이터 업데이트
     def update_achieve(self, id, data):
         for idx in range(0, LIST_NUM):
+            print("id : " + str(id))
+            print(str(idx) + " data : " + str(data[idx]))
             sql = "UPDATE achievement, user " \
                   "SET val = val + " \
-                  "(SELECT * FROM (SELECT SUM(achievementlist.point) " \
+                  "(SELECT * FROM (SELECT COALESCE(SUM(achievementlist.point),0) " \
                   "FROM user, achievement, achievementlist " \
                   "WHERE achievement.val < achievementlist.tskval AND " \
                   "achievement.val + %s >= achievementlist.tskval AND " \
@@ -104,12 +106,12 @@ class GameDataBaseManager:
 
     # 각 달성한 업적의 포인트를 합산한 score를 업적점수에 업데이트
     def update_achieve_score(self, id):
-        sql = "UPDATE user " \
+        sql = "UPDATE user" \
               "SET achievescore = " \
-              "(SELECT SUM(val) " \
+              "(SELECT * FROM (SELECT SUM(val) " \
               "FROM user, achievement " \
               "WHERE user.id = achievement.userid AND " \
-              "user.id = %s)" \
+              "user.id = %s) as t) " \
               "WHERE user.id = %s" % (id, id)
         self.db.execute(sql)
         self.db.commit()
