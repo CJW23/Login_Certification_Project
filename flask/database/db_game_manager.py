@@ -106,7 +106,7 @@ class GameDataBaseManager:
 
     # 각 달성한 업적의 포인트를 합산한 score를 업적점수에 업데이트
     def update_achieve_score(self, id):
-        sql = "UPDATE user" \
+        sql = "UPDATE user " \
               "SET achievescore = " \
               "(SELECT * FROM (SELECT SUM(val) " \
               "FROM user, achievement " \
