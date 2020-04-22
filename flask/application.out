@@ -1,0 +1,699 @@
+nohup: ignoring input
+ * Serving Flask app "application" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8082/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 529-811-023
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET / HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/vendor/animsition/css/animsition.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/vendor/animate/animate.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/vendor/select2/select2.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/vendor/daterangepicker/daterangepicker.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/css/main.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/css/util.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/vendor/animsition/js/animsition.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/vendor/bootstrap/js/popper.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/vendor/select2/select2.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/vendor/daterangepicker/moment.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/vendor/daterangepicker/daterangepicker.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/vendor/countdowntime/countdowntime.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET /static/login/js/main.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:08] "[37mGET / HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/vendor/animate/animate.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/vendor/animsition/css/animsition.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/vendor/select2/select2.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/vendor/daterangepicker/daterangepicker.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/css/util.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/css/main.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/vendor/animsition/js/animsition.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/vendor/bootstrap/js/popper.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/vendor/select2/select2.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/vendor/daterangepicker/moment.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/fonts/ubuntu/Ubuntu-Bold.ttf HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/fonts/ubuntu/Ubuntu-Regular.ttf HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/vendor/daterangepicker/daterangepicker.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/vendor/countdowntime/countdowntime.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 03:47:09] "[37mGET /static/login/js/main.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:02] "[37mGET / HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/vendor/animate/animate.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/vendor/animsition/css/animsition.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/vendor/select2/select2.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/vendor/daterangepicker/daterangepicker.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/css/main.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/css/util.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/vendor/animsition/js/animsition.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/vendor/bootstrap/js/popper.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/vendor/select2/select2.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/vendor/daterangepicker/moment.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/vendor/daterangepicker/daterangepicker.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/vendor/countdowntime/countdowntime.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/js/main.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/fonts/ubuntu/Ubuntu-Bold.ttf HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/fonts/ubuntu/Ubuntu-Regular.ttf HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:03] "[37mGET /static/login/images/icons/favicon.ico HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:08] "[37mPOST /checklogin HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:09] "[32mPOST /trylogin HTTP/1.1[0m" 302 -
+125.190.176.249 - - [27/Feb/2020 04:05:09] "[37mGET /main HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:09] "[37mGET /static/login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET / HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/vendor/animate/animate.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/vendor/animsition/css/animsition.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/vendor/select2/select2.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/vendor/daterangepicker/daterangepicker.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/css/util.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/css/main.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/vendor/animsition/js/animsition.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/vendor/bootstrap/js/popper.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/vendor/select2/select2.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/vendor/daterangepicker/moment.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/vendor/daterangepicker/daterangepicker.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/fonts/ubuntu/Ubuntu-Bold.ttf HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/fonts/ubuntu/Ubuntu-Regular.ttf HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/vendor/countdowntime/countdowntime.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:14] "[37mGET /static/login/js/main.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:19] "[37mPOST /checklogin HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:19] "[32mPOST /trylogin HTTP/1.1[0m" 302 -
+125.190.176.249 - - [27/Feb/2020 04:05:19] "[32mGET /main HTTP/1.1[0m" 302 -
+125.190.176.249 - - [27/Feb/2020 04:05:19] "[37mGET /manage HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:20] "[37mGET /static/login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:23] "[32mGET / HTTP/1.1[0m" 302 -
+125.190.176.249 - - [27/Feb/2020 04:05:23] "[32mGET /main HTTP/1.1[0m" 302 -
+125.190.176.249 - - [27/Feb/2020 04:05:23] "[37mGET /manage HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:23] "[37mGET /static/login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:25] "[32mGET /main HTTP/1.1[0m" 302 -
+125.190.176.249 - - [27/Feb/2020 04:05:25] "[37mGET /manage HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:25] "[37mGET /static/login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:25] "[32mGET / HTTP/1.1[0m" 302 -
+125.190.176.249 - - [27/Feb/2020 04:05:25] "[32mGET /main HTTP/1.1[0m" 302 -
+125.190.176.249 - - [27/Feb/2020 04:05:25] "[37mGET /manage HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:26] "[32mGET / HTTP/1.1[0m" 302 -
+125.190.176.249 - - [27/Feb/2020 04:05:26] "[32mGET /main HTTP/1.1[0m" 302 -
+125.190.176.249 - - [27/Feb/2020 04:05:26] "[37mGET /manage HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:27] "[37mGET /static/login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[32mGET /logout HTTP/1.1[0m" 302 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET / HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/vendor/animate/animate.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/vendor/animsition/css/animsition.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/vendor/select2/select2.min.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/vendor/daterangepicker/daterangepicker.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/css/util.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/css/main.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/vendor/animsition/js/animsition.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/vendor/bootstrap/js/popper.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/vendor/select2/select2.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/vendor/daterangepicker/moment.min.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/vendor/daterangepicker/daterangepicker.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/vendor/countdowntime/countdowntime.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/fonts/ubuntu/Ubuntu-Bold.ttf HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/fonts/ubuntu/Ubuntu-Regular.ttf HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:30] "[37mGET /static/login/js/main.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:31] "[35m[1mGET /manage HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/flask_server/Login_Certification_Project/flask/module/page_module.py", line 36, in manage
+    if redis_login_up_mng.token_check(request, session['email']) and db_manage.manager_check(session['email']):
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/local.py", line 377, in <lambda>
+    __getitem__ = lambda x, i: x._get_current_object()[i]
+  File "/usr/local/lib/python3.6/dist-packages/flask/sessions.py", line 84, in __getitem__
+    return super(SecureCookieSession, self).__getitem__(key)
+KeyError: 'email'
+125.190.176.249 - - [27/Feb/2020 04:05:31] "[37mGET /manage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:31] "[37mGET /manage?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:31] "[37mGET /manage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:31] "[37mGET /manage?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:31] "[37mGET /manage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:31] "[37mGET /manage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:32] "[37mGET / HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:32] "[37mGET /static/login/images/icons/favicon.ico HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:36] "[37mGET / HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:36] "[37mGET /static/login/images/icons/favicon.ico HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:43] "[37mPOST /checklogin HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:43] "[32mPOST /trylogin HTTP/1.1[0m" 302 -
+125.190.176.249 - - [27/Feb/2020 04:05:43] "[37mGET /main HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:05:43] "[37mGET /static/login/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:09:32] "[37mPOST /delet HTTP/1.1[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:10:05] "[37mPOST /clientlogin HTTP/1.1[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:10:06] "[37mPOST /get-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:10:06] "[37mPOST /get-achieve-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:10:06] "[37mPOST /get-user-achieve-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:10:10] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:10:18] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:10:21] "[37mPOST /clientlogin HTTP/1.1[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:10:23] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:10:45] "[37mPOST /clientlogin HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:10:45] "[37mPOST /get-data HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:10:45] "[37mPOST /get-achieve-data HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:10:45] "[37mPOST /get-user-achieve-data HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:10:49] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:10:55] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:10:58] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:11:01] "[37mPOST /clientlogin HTTP/1.1[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:11:01] "[37mPOST /get-data HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:11:01] "[37mPOST /get-achieve-data HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:11:01] "[37mPOST /get-user-achieve-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:11:01] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:11:03] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:11:03] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:11:07] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:11:08] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:11:13] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:11:14] "[37mPOST /delet HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:11:24] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:11:25] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:11:31] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:11:34] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:11:36] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:11:36] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:11:58] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:12:15] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:12:31] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:12:32] "[37mPOST /delet HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:12:36] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:12:48] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:13:09] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:13:23] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:13:44] "[37mPOST /clientlogin HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:13:44] "[37mPOST /get-data HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:13:44] "[37mPOST /get-achieve-data HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:13:44] "[37mPOST /get-user-achieve-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:13:48] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:13:54] "[37mPOST /delet HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:14:03] "[37mPOST /clientlogin HTTP/1.1[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:14:03] "[37mPOST /get-data HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:14:03] "[37mPOST /get-achieve-data HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:14:03] "[37mPOST /get-user-achieve-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:14:06] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:14:11] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:14:12] "[37mPOST /clientlogin HTTP/1.1[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:14:12] "[37mPOST /get-data HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:14:12] "[37mPOST /get-achieve-data HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:14:12] "[37mPOST /get-user-achieve-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:14:13] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:14:15] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:14:20] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:14:22] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:14:22] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:14:26] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:14:26] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:14:31] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:14:32] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:14:38] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:14:41] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:14:43] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:14:45] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:14:52] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:15:20] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:15:22] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:15:42] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:16:12] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:16:15] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:17:06] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:17:27] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:19:12] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:19:20] "[37mPOST /delet HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:19:23] "[37mPOST /delet HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:21:40] "[37mPOST /delet HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:22:20] "[37mPOST /clientlogin HTTP/1.1[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:22:20] "[37mPOST /get-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:22:20] "[37mPOST /get-achieve-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:22:20] "[37mPOST /get-user-achieve-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:22:25] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:22:30] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:23:46] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:24:08] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:24:28] "[37mPOST /clientlogin HTTP/1.1[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:24:35] "[37mPOST /clientlogin HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:24:35] "[37mPOST /get-data HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:24:35] "[37mPOST /get-achieve-data HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:24:35] "[37mPOST /get-user-achieve-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:24:44] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:24:49] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:24:50] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:24:53] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:24:55] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:24:56] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:24:57] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:24:58] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:24:59] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:25:01] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:25:02] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:25:05] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:25:10] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:25:16] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:25:19] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:25:29] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:25:32] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:25:35] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:25:45] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:25:49] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:25:55] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:26:01] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:26:02] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:26:04] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:26:10] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:26:12] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:26:18] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:26:19] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:26:20] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:26:21] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:26:22] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:26:22] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:26:23] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:26:25] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:26:28] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:26:29] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:26:34] "[37mPOST /clientlogin HTTP/1.1[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:26:35] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:26:37] "[37mPOST /clientlogin HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:26:37] "[37mPOST /get-data HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:26:37] "[37mPOST /get-achieve-data HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:26:38] "[37mPOST /get-user-achieve-data HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:26:38] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:26:40] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:26:45] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:26:47] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:27:04] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:27:29] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:27:50] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:28:45] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:31:06] "[37mPOST /update-user-victory HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:31:06] "[35m[1mPOST /update-user-achieve HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/flask_server/Login_Certification_Project/flask/module/game_api_module.py", line 67, in update_user_achieve
+    db_game_mng.update_achieve_score(request.form.get('id'))
+  File "/root/flask_server/Login_Certification_Project/flask/database/db_game_manager.py", line 116, in update_achieve_score
+    self.db.execute(sql)
+  File "/root/flask_server/Login_Certification_Project/flask/database/db_module.py", line 21, in execute
+    self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= (SELECT * FROM (SELECT SUM(val) FROM user, achievement WHERE user.id = achieve' at line 1")
+175.117.68.44 - - [27/Feb/2020 04:31:06] "[37mPOST /update-user-lose HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:31:06] "[35m[1mPOST /update-user-achieve HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/flask_server/Login_Certification_Project/flask/module/game_api_module.py", line 67, in update_user_achieve
+    db_game_mng.update_achieve_score(request.form.get('id'))
+  File "/root/flask_server/Login_Certification_Project/flask/database/db_game_manager.py", line 116, in update_achieve_score
+    self.db.execute(sql)
+  File "/root/flask_server/Login_Certification_Project/flask/database/db_module.py", line 21, in execute
+    self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= (SELECT * FROM (SELECT SUM(val) FROM user, achievement WHERE user.id = achieve' at line 1")
+125.186.131.127 - - [27/Feb/2020 04:32:12] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:32:25] "[37mPOST /delet HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:32:57] "[37mPOST /clientlogin HTTP/1.1[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:32:57] "[37mPOST /get-data HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:32:57] "[37mPOST /get-achieve-data HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:32:57] "[37mPOST /get-user-achieve-data HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:33:03] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:33:04] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:33:05] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:33:09] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:33:12] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:33:16] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.190.176.249 - - [27/Feb/2020 04:33:17] "[37mPOST /delet HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:33:24] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:33:47] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:34:00] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:34:02] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:34:05] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:34:09] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:34:21] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:34:23] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:34:23] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:34:25] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:34:28] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:34:38] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:34:40] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:34:47] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:34:50] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:34:59] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:35:31] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:35:43] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:35:46] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:35:54] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:35:57] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:36:05] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:36:28] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:36:31] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:36:57] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:36:59] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:37:20] "[37mPOST /delet HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:37:24] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:37:46] "[37mPOST /delet HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:56:09] "[37mPOST /clientlogin HTTP/1.1[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:56:19] "[37mPOST /clientlogin HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:56:19] "[37mPOST /get-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:56:19] "[37mPOST /get-achieve-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:56:19] "[37mPOST /get-user-achieve-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:56:36] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:57:29] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:57:33] "[37mPOST /clientlogin HTTP/1.1[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:57:33] "[37mPOST /get-data HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:57:33] "[37mPOST /get-achieve-data HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:57:33] "[37mPOST /get-user-achieve-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:57:41] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:57:49] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 04:57:55] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:58:03] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 04:58:06] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 05:00:22] "[37mPOST /update-user-lose HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 05:00:22] "[37mPOST /update-user-victory HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 05:00:22] "[35m[1mPOST /update-user-achieve HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/flask_server/Login_Certification_Project/flask/module/game_api_module.py", line 67, in update_user_achieve
+    db_game_mng.update_achieve_score(request.form.get('id'))
+  File "/root/flask_server/Login_Certification_Project/flask/database/db_game_manager.py", line 116, in update_achieve_score
+    self.db.execute(sql)
+  File "/root/flask_server/Login_Certification_Project/flask/database/db_module.py", line 21, in execute
+    self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= (SELECT * FROM (SELECT SUM(val) FROM user, achievement WHERE user.id = achieve' at line 1")
+175.117.68.44 - - [27/Feb/2020 05:00:22] "[35m[1mPOST /update-user-achieve HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/flask_server/Login_Certification_Project/flask/module/game_api_module.py", line 67, in update_user_achieve
+    db_game_mng.update_achieve_score(request.form.get('id'))
+  File "/root/flask_server/Login_Certification_Project/flask/database/db_game_manager.py", line 116, in update_achieve_score
+    self.db.execute(sql)
+  File "/root/flask_server/Login_Certification_Project/flask/database/db_module.py", line 21, in execute
+    self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= (SELECT * FROM (SELECT SUM(val) FROM user, achievement WHERE user.id = achieve' at line 1")
+125.186.131.127 - - [27/Feb/2020 05:00:47] "[37mPOST /delet HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 05:03:29] "[37mPOST /delet HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 05:04:38] "[37mPOST /delet HTTP/1.1[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 05:04:53] "[37mPOST /clientlogin HTTP/1.1[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 05:04:56] "[37mPOST /clientlogin HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 05:04:56] "[37mPOST /get-data HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 05:04:56] "[37mPOST /get-achieve-data HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 05:04:56] "[37mPOST /get-user-achieve-data HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 05:05:00] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 05:05:04] "[37mPOST /clientlogin HTTP/1.1[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 05:05:08] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 05:05:09] "[37mPOST /clientlogin HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 05:05:09] "[37mPOST /get-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 05:05:09] "[37mPOST /get-achieve-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 05:05:09] "[37mPOST /get-user-achieve-data HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 05:05:13] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 05:05:30] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 05:05:33] "[37mPOST /clientusercache HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 05:08:36] "[37mPOST /update-user-lose HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 05:08:36] "[35m[1mPOST /update-user-achieve HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/flask_server/Login_Certification_Project/flask/module/game_api_module.py", line 67, in update_user_achieve
+    db_game_mng.update_achieve_score(request.form.get('id'))
+  File "/root/flask_server/Login_Certification_Project/flask/database/db_game_manager.py", line 116, in update_achieve_score
+    self.db.execute(sql)
+  File "/root/flask_server/Login_Certification_Project/flask/database/db_module.py", line 21, in execute
+    self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= (SELECT * FROM (SELECT SUM(val) FROM user, achievement WHERE user.id = achieve' at line 1")
+125.186.131.127 - - [27/Feb/2020 05:08:36] "[37mPOST /update-user-victory HTTP/1.0[0m" 200 -
+125.186.131.127 - - [27/Feb/2020 05:08:36] "[35m[1mPOST /update-user-achieve HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/flask_server/Login_Certification_Project/flask/module/game_api_module.py", line 67, in update_user_achieve
+    db_game_mng.update_achieve_score(request.form.get('id'))
+  File "/root/flask_server/Login_Certification_Project/flask/database/db_game_manager.py", line 116, in update_achieve_score
+    self.db.execute(sql)
+  File "/root/flask_server/Login_Certification_Project/flask/database/db_module.py", line 21, in execute
+    self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= (SELECT * FROM (SELECT SUM(val) FROM user, achievement WHERE user.id = achieve' at line 1")
+125.186.131.127 - - [27/Feb/2020 05:08:48] "[37mPOST /delet HTTP/1.0[0m" 200 -
+175.117.68.44 - - [27/Feb/2020 05:11:01] "[37mPOST /delet HTTP/1.0[0m" 200 -
+51.91.212.80 - - [27/Feb/2020 06:48:35] code 400, message Bad request version ('À\x14À')
+51.91.212.80 - - [27/Feb/2020 06:48:35] "[35m[1m u  q«`_È¦.EýÁSGË¿uÓÃß:NÝiô=  À/À+ÀÀÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+51.178.78.152 - - [27/Feb/2020 08:49:46] code 400, message Bad request syntax ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03\x17\xa0,\r\x86Z_p&YÑ\x8fm\x0f\x06M\x9ff~\x8eX<\x93_êöº\x9b7§g`\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\tÀ\x14À')
+51.178.78.152 - - [27/Feb/2020 08:49:46] "[35m[1m u  q ,Z_p&YÑmMf~X<_êöº7§g`  À/À+ÀÀÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+66.151.211.170 - - [27/Feb/2020 13:29:10] "[33mHEAD /robots.txt HTTP/1.0[0m" 404 -
+222.186.19.221 - - [27/Feb/2020 16:04:16] "[33mCONNECT ip.ws.126.net:443 HTTP/1.1[0m" 404 -
+222.186.19.221 - - [28/Feb/2020 13:17:42] "[33mCONNECT ip.ws.126.net:443 HTTP/1.1[0m" 404 -
+185.202.1.196 - - [28/Feb/2020 18:04:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.202.1.196 - - [28/Feb/2020 18:04:22] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+66.151.211.170 - - [29/Feb/2020 03:15:13] "[33mHEAD /robots.txt HTTP/1.0[0m" 404 -
+51.91.212.80 - - [29/Feb/2020 07:31:11] code 400, message Bad request version ('À\x14À')
+51.91.212.80 - - [29/Feb/2020 07:31:11] "[35m[1m u  q°*ªÔÉ¥ë%CÊçRãë÷[¶¦Q·ª  À/À+ÀÀÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
